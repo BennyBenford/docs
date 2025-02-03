@@ -9,7 +9,11 @@
   "colors": {
     "primary": "#361f5b",
     "light": "#72c7af",
-    "dark": "#361f5b"
+    "dark": "#361f5b",
+    "anchors": {
+      "from": "#72c7af",
+      "to": "#738ebc"
+    }
   },
   "navigation": [
     {
@@ -19,6 +23,25 @@
         "key-concepts",
         "getting-started"
       ]
+    },
+    {
+      "group": "Core Processes",
+      "pages": [
+        "production-systems",
+        "culture-systems",
+        "program-systems"
+      ]
+    },
+    {
+      "group": "Implementation Guide",
+      "pages": [
+        "first-90-days",
+        "building-momentum",
+        "scaling"
+      ]
     }
-  ]
+  ],
+  "feedback": {
+    "thumbsRating": true
+  }
 }
