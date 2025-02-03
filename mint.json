@@ -1,98 +1,135 @@
 {
-  "site": {
-    "name": "Transformation Methodology",
-    "logo": "/images/hero-dark.svg",
-    "favicon": "/favicon.svg"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Transformation Docs",
+  "logo": {
+    "dark": "/logo/dark-transformation.svg",
+    "light": "/logo/light-transformation.svg"
   },
-  "ai": {
-    "enabled": true,
-    "model": "gpt-4-turbo",
-    "temperature": 0.7
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0A75AD",
+    "light": "#36A2EB",
+    "dark": "#0A75AD",
+    "anchors": {
+      "from": "#0A75AD",
+      "to": "#36A2EB"
+    }
   },
-  "structure": {
-    "sidebar": [
-      {
-        "title": "Introduction",
-        "items": [
-          "docs/introduction.mdx",
-          "docs/quickstart.mdx"
-        ]
-      },
-      {
-        "title": "Developing Value",
-        "items": [
-          "docs/02_developing-value/index.md",
-          "docs/02_developing-value/frameworks.md",
-          "docs/02_developing-value/case-studies.md",
-          "docs/02_developing-value/how-tos.md",
-          "docs/02_developing-value/pitfalls.md",
-          "docs/02_developing-value/value-metrics.md"
-        ]
-      },
-      {
-        "title": "Organizational Development",
-        "items": [
-          "docs/03_org-development/index.md",
-          "docs/03_org-development/operating-models.md",
-          "docs/03_org-development/culture-change.md",
-          "docs/03_org-development/leadership.md",
-          "docs/03_org-development/measurement.md",
-          "docs/03_org-development/lean-transformation.md"
-        ]
-      },
-      {
-        "title": "Sponsorship & Stakeholder Management",
-        "items": [
-          "docs/04_sponsorship/index.md",
-          "docs/04_sponsorship/building-sponsors.md",
-          "docs/04_sponsorship/maintaining-sponsorship.md",
-          "docs/04_sponsorship/literacy-for-tech.md",
-          "docs/04_sponsorship/transformation-examples.md",
-          "docs/04_sponsorship/resistance-to-change.md"
-        ]
-      },
-      {
-        "title": "Personal Development & Leadership",
-        "items": [
-          "docs/05_personal-development/index.md",
-          "docs/05_personal-development/leadership-skills.md",
-          "docs/05_personal-development/confidence-building.md",
-          "docs/05_personal-development/continuous-learning.md",
-          "docs/05_personal-development/transformation-mindset.md",
-          "docs/05_personal-development/resilience.md"
-        ]
-      },
-      {
-        "title": "Essentials",
-        "items": [
-          "docs/essentials/code.mdx",
-          "docs/essentials/images.mdx",
-          "docs/essentials/markdown.mdx",
-          "docs/essentials/navigation.mdx",
-          "docs/essentials/reusable-snippets.mdx",
-          "docs/essentials/settings.mdx"
-        ]
-      },
-      {
-        "title": "API Reference",
-        "items": [
-          "docs/api-reference/introduction.mdx",
-          "docs/api-reference/openapi.json",
-          "docs/api-reference/endpoint/create.mdx",
-          "docs/api-reference/endpoint/delete.mdx",
-          "docs/api-reference/endpoint/get.mdx"
-        ]
-      },
-      {
-        "title": "FAQ",
-        "items": [
-          "docs/faq.md"
-        ]
-      }
-    ]
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@transformationdocs.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.transformationdocs.com"
   },
-  "theme": {
-    "darkMode": true,
-    "primaryColor": "#2A7FFF"
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://transformationdocs.com/docs"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://transformationdocs.com/community"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://transformationdocs.com/blog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "group": "Transformation Methodology",
+      "pages": [
+        "02_developing-value/index",
+        "02_developing-value/frameworks",
+        "02_developing-value/case-studies",
+        "02_developing-value/how-tos",
+        "02_developing-value/pitfalls",
+        "02_developing-value/value-metrics"
+      ]
+    },
+    {
+      "group": "Organizational Development",
+      "pages": [
+        "03_org-development/index",
+        "03_org-development/operating-models",
+        "03_org-development/culture-change",
+        "03_org-development/leadership",
+        "03_org-development/measurement",
+        "03_org-development/lean-transformation"
+      ]
+    },
+    {
+      "group": "Sponsorship & Stakeholder Engagement",
+      "pages": [
+        "04_sponsorship/index",
+        "04_sponsorship/building-sponsors",
+        "04_sponsorship/maintaining-sponsorship",
+        "04_sponsorship/literacy-for-tech",
+        "04_sponsorship/transformation-examples",
+        "04_sponsorship/resistance-to-change"
+      ]
+    },
+    {
+      "group": "Personal Development & Leadership",
+      "pages": [
+        "05_personal-development/index",
+        "05_personal-development/leadership-skills",
+        "05_personal-development/confidence-building",
+        "05_personal-development/continuous-learning",
+        "05_personal-development/transformation-mindset",
+        "05_personal-development/resilience"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/transformationdocs",
+    "github": "https://github.com/transformationdocs",
+    "linkedin": "https://linkedin.com/company/transformationdocs"
   }
 }
