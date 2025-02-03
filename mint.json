@@ -102,6 +102,78 @@
       ]
     },
     {
+      "group": "Leadership & Personal Development",
+      "pages": [
+        {
+          "group": "Leadership Skills",
+          "pages": [
+            "leadership/building-influence",
+            "leadership/stakeholder-management",
+            "leadership/communication-skills",
+            "leadership/decision-making"
+          ]
+        },
+        {
+          "group": "Personal Growth",
+          "pages": [
+            "leadership/personal-growth/resilience",
+            "leadership/personal-growth/learning-mindset",
+            "leadership/personal-growth/networking"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Advanced Topics",
+      "pages": [
+        {
+          "group": "AI & Future Trends",
+          "pages": [
+            "advanced/ai-transformation",
+            "advanced/future-of-work",
+            "advanced/emerging-technologies"
+          ]
+        },
+        {
+          "group": "Enterprise Scale",
+          "pages": [
+            "advanced/enterprise/global-transformation",
+            "advanced/enterprise/matrix-organizations",
+            "advanced/enterprise/multi-speed-transformation"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Governance & Compliance",
+      "pages": [
+        {
+          "group": "Risk Management",
+          "pages": [
+            "governance/risk/assessment-framework",
+            "governance/risk/mitigation-strategies",
+            "governance/risk/monitoring-reporting"
+          ]
+        },
+        {
+          "group": "Compliance",
+          "pages": [
+            "governance/compliance/regulatory-requirements",
+            "governance/compliance/audit-trails",
+            "governance/compliance/data-governance"
+          ]
+        },
+        {
+          "group": "Ethics & Standards",
+          "pages": [
+            "governance/ethics/transformation-ethics",
+            "governance/ethics/decision-frameworks",
+            "governance/ethics/sustainability"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Frameworks & Methods",
       "pages": [
         {
