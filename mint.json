@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Transformation Docs",
   "logo": {
-    "dark": "/logo/dark-transformation.svg",
-    "light": "/logo/light-transformation.svg"
+    "dark": "/logo/dark3.svg",
+    "light": "/logo/light3.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
