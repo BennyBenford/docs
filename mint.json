@@ -9,149 +9,16 @@
   "colors": {
     "primary": "#361f5b",
     "light": "#72c7af",
-    "dark": "#361f5b",
-    "background": {
-      "dark": "#0D0D0D",
-      "light": "#f1f1f2"
-    },
-    "anchors": {
-      "from": "#72c7af",
-      "to": "#738ebc"
-    }
+    "dark": "#361f5b"
   },
-  "topbarLinks": [
-    {
-      "name": "Community",
-      "url": "mailto:community@lean-transformation.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://lean-transformation.com/start"
-  },
-  "tabs": [
-    {
-      "name": "Frameworks",
-      "url": "frameworks"
-    },
-    {
-      "name": "Resources",
-      "url": "resources"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://lean-transformation.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "people-group",
-      "url": "https://lean-transformation.com/community"
-    },
-    {
-      "name": "Case Studies",
-      "icon": "clipboard-document-list",
-      "url": "https://lean-transformation.com/case-studies"
-    }
-  ],
   "navigation": [
     {
       "group": "Getting Started",
       "pages": [
-        "introduction/overview",
-        "introduction/key-concepts",
-        "introduction/getting-started"
-      ]
-    },
-    {
-      "group": "Core Processes",
-      "pages": [
-        {
-          "group": "Production Systems",
-          "pages": [
-            "core-processes/production-systems/value-assessment",
-            "core-processes/production-systems/mvp-development",
-            "core-processes/production-systems/scaling-framework"
-          ]
-        },
-        {
-          "group": "Culture Systems",
-          "pages": [
-            "core-processes/culture-systems/culture-assessment",
-            "core-processes/culture-systems/champions-network",
-            "core-processes/culture-systems/measuring-adoption"
-          ]
-        },
-        {
-          "group": "Program Systems",
-          "pages": [
-            "core-processes/program-systems/stakeholder-engagement",
-            "core-processes/program-systems/value-tracking",
-            "core-processes/program-systems/governance"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Implementation Guide",
-      "pages": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "implementation/getting-started/first-90-days",
-            "implementation/getting-started/building-momentum",
-            "implementation/getting-started/quick-wins"
-          ]
-        },
-        {
-          "group": "Scaling",
-          "pages": [
-            "implementation/scaling/expanding-adoption",
-            "implementation/scaling/measuring-progress",
-            "implementation/scaling/managing-complexity"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        {
-          "group": "Templates",
-          "pages": [
-            "resources/templates/value-assessment-template",
-            "resources/templates/risk-register-template",
-            "resources/templates/steering-committee-template"
-          ]
-        },
-        {
-          "group": "Case Studies",
-          "pages": [
-            "resources/case-studies/success-stories",
-            "resources/case-studies/lessons-learned"
-          ]
-        }
+        "introduction",
+        "key-concepts",
+        "getting-started"
       ]
     }
-  ],
-  "footerSocials": {
-    "linkedin": "https://linkedin.com/company/lean-transformation",
-    "twitter": "https://twitter.com/leantransform",
-    "github": "https://github.com/lean-transformation"
-  },
-  "typography": {
-    "font-family": {
-      "sans": ["Manrope", "system-ui", "sans-serif"],
-      "mono": ["Anonymous Pro", "monospace"]
-    }
-  },
-  "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true
-  },
-  "search": {
-    "prompt": "Search transformation docs..."
-  }
+  ]
 }
