@@ -10,10 +10,6 @@
     "primary": "#361f5b",
     "light": "#72c7af",
     "dark": "#361f5b",
-    "background": {
-      "dark": "#0f0d12",
-      "light": "#f1f1f2"
-    },
     "anchors": {
       "from": "#72c7af",
       "to": "#738ebc"
@@ -21,12 +17,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Academy",
-      "url": "https://datent.com/academy"
+      "name": "Community",
+      "url": "mailto:community@datent.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Start Transforming",
+    "name": "Get Started",
     "url": "https://datent.com/start"
   },
   "anchors": [
@@ -36,9 +32,9 @@
       "url": "https://datent.com/docs"
     },
     {
-      "name": "Academy",
-      "icon": "graduation-cap",
-      "url": "https://datent.com/academy"
+      "name": "Community",
+      "icon": "people-group",
+      "url": "https://datent.com/community"
     },
     {
       "name": "Case Studies",
@@ -50,101 +46,36 @@
     {
       "group": "Getting Started",
       "pages": [
-        "introduction/overview",
-        "introduction/key-concepts",
-        "introduction/getting-started"
+        "introduction",
+        "key-concepts",
+        "getting-started"
       ]
     },
     {
-      "group": "Core Systems",
+      "group": "Core Processes",
       "pages": [
         {
           "group": "Production Systems",
           "pages": [
-            "core-processes/production-systems/value-assessment",
-            "core-processes/production-systems/mvp-development",
-            "core-processes/production-systems/scaling-strategy"
+            "production-systems/value-assessment",
+            "production-systems/mvp-development",
+            "production-systems/scaling-framework"
           ]
         },
         {
           "group": "Culture Systems",
           "pages": [
-            "core-processes/culture-systems/transformation-survey",
-            "core-processes/culture-systems/champions-network",
-            "core-processes/culture-systems/skills-development"
+            "culture-systems/culture-assessment",
+            "culture-systems/champions-network",
+            "culture-systems/measuring-adoption"
           ]
         },
         {
           "group": "Program Systems",
           "pages": [
-            "core-processes/program-systems/steerco-management",
-            "core-processes/program-systems/sponsor-engagement",
-            "core-processes/program-systems/value-tracking"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Value Framework",
-      "pages": [
-        "frameworks/value/assessment-process",
-        "frameworks/value/measurement-framework",
-        "frameworks/value/backlog-management"
-      ]
-    },
-    {
-      "group": "Change Management",
-      "pages": [
-        "frameworks/change/stakeholder-mapping",
-        "frameworks/change/communication-strategy",
-        "frameworks/change/resistance-management"
-      ]
-    },
-    {
-      "group": "Governance",
-      "pages": [
-        "frameworks/governance/risk-management",
-        "frameworks/governance/data-ownership",
-        "frameworks/governance/compliance-framework"
-      ]
-    },
-    {
-      "group": "Implementation Guide",
-      "pages": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "implementation/getting-started/first-90-days",
-            "implementation/getting-started/building-momentum",
-            "implementation/getting-started/quick-wins"
-          ]
-        },
-        {
-          "group": "Scaling",
-          "pages": [
-            "implementation/scaling/expanding-adoption",
-            "implementation/scaling/measuring-progress",
-            "implementation/scaling/managing-complexity"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        {
-          "group": "Templates",
-          "pages": [
-            "resources/templates/value-assessment",
-            "resources/templates/risk-register",
-            "resources/templates/steerco-terms"
-          ]
-        },
-        {
-          "group": "Case Studies",
-          "pages": [
-            "resources/case-studies/success-stories",
-            "resources/case-studies/lessons-learned"
+            "program-systems/stakeholder-engagement",
+            "program-systems/value-tracking",
+            "program-systems/governance"
           ]
         }
       ]
@@ -152,12 +83,13 @@
   ],
   "footerSocials": {
     "linkedin": "https://linkedin.com/company/datent",
-    "twitter": "https://twitter.com/datent"
+    "twitter": "https://twitter.com/datent",
+    "github": "https://github.com/datent"
   },
   "typography": {
     "font-family": {
-      "sans": ["Inter", "system-ui", "sans-serif"],
-      "mono": ["JetBrains Mono", "monospace"]
+      "sans": ["Manrope", "system-ui", "sans-serif"],
+      "mono": ["Anonymous Pro", "monospace"]
     }
   },
   "feedback": {
@@ -166,11 +98,5 @@
   },
   "search": {
     "prompt": "Search transformation docs..."
-  },
-  "backgroundImage": "/images/background-pattern.png",
-  "analytics": {
-    "ga4": {
-      "measurementId": "G-XXXXXXXXXX"
-    }
   }
 }
