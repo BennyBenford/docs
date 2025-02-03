@@ -15,6 +15,33 @@
       "to": "#738ebc"
     }
   },
+  "topbarLinks": [
+    {
+      "name": "Community",
+      "url": "mailto:community@lean-transformation.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://lean-transformation.com/start"
+  },
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://lean-transformation.com/docs"
+    },
+    {
+      "name": "Community",
+      "icon": "people-group",
+      "url": "https://lean-transformation.com/community"
+    },
+    {
+      "name": "Case Studies",
+      "icon": "clipboard-document-list",
+      "url": "https://lean-transformation.com/case-studies"
+    }
+  ],
   "navigation": [
     {
       "group": "Getting Started",
