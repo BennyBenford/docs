@@ -54,17 +54,51 @@
     {
       "group": "Core Processes",
       "pages": [
-        "production-systems",
-        "culture-systems",
-        "program-systems"
+        {
+          "group": "Production Systems",
+          "pages": [
+            "production-systems/value-assessment",
+            "production-systems/mvp-development",
+            "production-systems/scaling-framework"
+          ]
+        },
+        {
+          "group": "Culture Systems",
+          "pages": [
+            "culture-systems/culture-assessment",
+            "culture-systems/champions-network",
+            "culture-systems/measuring-adoption"
+          ]
+        },
+        {
+          "group": "Program Systems",
+          "pages": [
+            "program-systems/stakeholder-engagement",
+            "program-systems/value-tracking",
+            "program-systems/governance"
+          ]
+        }
       ]
     },
     {
       "group": "Implementation Guide",
       "pages": [
-        "first-90-days",
-        "building-momentum",
-        "scaling"
+        {
+          "group": "Getting Started",
+          "pages": [
+            "implementation/first-90-days",
+            "implementation/building-momentum",
+            "implementation/quick-wins"
+          ]
+        },
+        {
+          "group": "Scaling",
+          "pages": [
+            "implementation/scaling/expanding-adoption",
+            "implementation/scaling/measuring-progress",
+            "implementation/scaling/managing-complexity"
+          ]
+        }
       ]
     }
   ],
