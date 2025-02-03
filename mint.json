@@ -15,128 +15,90 @@
       "to": "#738ebc"
     }
   },
+  "topbarLinks": [
+    {
+      "name": "Community",
+      "url": "mailto:community@lean-transformation.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://lean-transformation.com/start"
+  },
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://lean-transformation.com/docs"
+    },
+    {
+      "name": "Community",
+      "icon": "people-group",
+      "url": "https://lean-transformation.com/community"
+    },
+    {
+      "name": "Case Studies",
+      "icon": "clipboard-document-list",
+      "url": "https://lean-transformation.com/case-studies"
+    }
+  ],
   "navigation": [
     {
-      "group": "Introduction",
+      "group": "Getting Started",
       "pages": [
-        "introduction/overview",
-        "introduction/key-concepts",
-        "introduction/getting-started"
+        "overview",
+        "key-concepts",
+        "getting-started"
       ]
     },
     {
-      "group": "Core Processes",
+      "group": "Production Systems",
       "pages": [
-        {
-          "group": "Production Systems",
-          "pages": [
-            "core-processes/production-systems/value-assessment",
-            "core-processes/production-systems/mvp-development",
-            "core-processes/production-systems/scaling-framework"
-          ]
-        },
-        {
-          "group": "Culture Systems",
-          "pages": [
-            "core-processes/culture-systems/culture-assessment",
-            "core-processes/culture-systems/champions-network",
-            "core-processes/culture-systems/measuring-adoption"
-          ]
-        },
-        {
-          "group": "Program Systems",
-          "pages": [
-            "core-processes/program-systems/stakeholder-engagement",
-            "core-processes/program-systems/value-tracking",
-            "core-processes/program-systems/governance"
-          ]
-        }
+        "value-assessment",
+        "mvp-development",
+        "scaling-framework"
+      ]
+    },
+    {
+      "group": "Culture Systems",
+      "pages": [
+        "culture-assessment",
+        "champions-network",
+        "measuring-adoption"
+      ]
+    },
+    {
+      "group": "Program Systems",
+      "pages": [
+        "stakeholder-engagement",
+        "value-tracking",
+        "governance"
       ]
     },
     {
       "group": "Frameworks",
       "pages": [
-        {
-          "group": "Value",
-          "pages": [
-            "frameworks/value/value-assessment",
-            "frameworks/value/value-measurement",
-            "frameworks/value/value-tracking"
-          ]
-        },
-        {
-          "group": "Transformation",
-          "pages": [
-            "frameworks/transformation/vision-setting",
-            "frameworks/transformation/roadmap-development",
-            "frameworks/transformation/change-management"
-          ]
-        },
-        {
-          "group": "Governance",
-          "pages": [
-            "frameworks/governance/risk-management",
-            "frameworks/governance/data-ownership",
-            "frameworks/governance/compliance"
-          ]
-        }
+        "value-framework",
+        "transformation-framework",
+        "governance-framework"
       ]
     },
     {
       "group": "Implementation",
       "pages": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "implementation/getting-started/first-90-days",
-            "implementation/getting-started/building-momentum",
-            "implementation/getting-started/quick-wins"
-          ]
-        },
-        {
-          "group": "Scaling",
-          "pages": [
-            "implementation/scaling/expanding-adoption",
-            "implementation/scaling/measuring-progress",
-            "implementation/scaling/managing-complexity"
-          ]
-        },
-        {
-          "group": "Sustainability",
-          "pages": [
-            "implementation/sustainability/maintaining-momentum",
-            "implementation/sustainability/evolving-practices",
-            "implementation/sustainability/continuous-improvement"
-          ]
-        }
+        "first-90-days",
+        "building-momentum",
+        "quick-wins",
+        "expanding-adoption",
+        "measuring-progress"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        {
-          "group": "Templates",
-          "pages": [
-            "resources/templates/value-assessment-template",
-            "resources/templates/risk-register-template",
-            "resources/templates/steering-committee-template"
-          ]
-        },
-        {
-          "group": "Case Studies",
-          "pages": [
-            "resources/case-studies/success-stories",
-            "resources/case-studies/lessons-learned"
-          ]
-        },
-        {
-          "group": "Tools",
-          "pages": [
-            "resources/tools/assessment-tools",
-            "resources/tools/tracking-tools",
-            "resources/tools/reporting-tools"
-          ]
-        }
+        "templates",
+        "case-studies",
+        "tools"
       ]
     }
   ],
@@ -147,5 +109,8 @@
   },
   "feedback": {
     "thumbsRating": true
+  },
+  "search": {
+    "prompt": "Search transformation docs..."
   }
 }
