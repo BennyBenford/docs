@@ -1,135 +1,158 @@
-{
+I'll help create a mint.json file optimized for your lean transformation documentation, incorporating your brand colors and adapting the structure to match your content organization. Here's the proposed configuration:
+jsonCopy{
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Transformation Docs",
+  "name": "Lean Transformation Docs",
   "logo": {
-    "dark": "/logo/dark3.svg",
-    "light": "/logo/light3.svg"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0A75AD",
-    "light": "#36A2EB",
-    "dark": "#0A75AD",
+    "primary": "#361f5b",
+    "light": "#72c7af",
+    "dark": "#361f5b",
+    "background": {
+      "dark": "#0D0D0D",
+      "light": "#f1f1f2"
+    },
     "anchors": {
-      "from": "#0A75AD",
-      "to": "#36A2EB"
+      "from": "#72c7af",
+      "to": "#738ebc"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:support@transformationdocs.com"
+      "name": "Community",
+      "url": "mailto:community@lean-transformation.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.transformationdocs.com"
+    "name": "Get Started",
+    "url": "https://lean-transformation.com/start"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Frameworks",
+      "url": "frameworks"
+    },
+    {
+      "name": "Resources",
+      "url": "resources"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://transformationdocs.com/docs"
+      "url": "https://lean-transformation.com/docs"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://transformationdocs.com/community"
+      "icon": "people-group",
+      "url": "https://lean-transformation.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://transformationdocs.com/blog"
+      "name": "Case Studies",
+      "icon": "clipboard-document-list",
+      "url": "https://lean-transformation.com/case-studies"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction/overview",
+        "introduction/key-concepts",
+        "introduction/getting-started"
       ]
     },
     {
-      "group": "Transformation Methodology",
+      "group": "Core Processes",
       "pages": [
-        "02_developing-value/index",
-        "02_developing-value/frameworks",
-        "02_developing-value/case-studies",
-        "02_developing-value/how-tos",
-        "02_developing-value/pitfalls",
-        "02_developing-value/value-metrics"
+        {
+          "group": "Production Systems",
+          "pages": [
+            "core-processes/production-systems/value-assessment",
+            "core-processes/production-systems/mvp-development",
+            "core-processes/production-systems/scaling-framework"
+          ]
+        },
+        {
+          "group": "Culture Systems",
+          "pages": [
+            "core-processes/culture-systems/culture-assessment",
+            "core-processes/culture-systems/champions-network",
+            "core-processes/culture-systems/measuring-adoption"
+          ]
+        },
+        {
+          "group": "Program Systems",
+          "pages": [
+            "core-processes/program-systems/stakeholder-engagement",
+            "core-processes/program-systems/value-tracking",
+            "core-processes/program-systems/governance"
+          ]
+        }
       ]
     },
     {
-      "group": "Organizational Development",
+      "group": "Implementation Guide",
       "pages": [
-        "03_org-development/index",
-        "03_org-development/operating-models",
-        "03_org-development/culture-change",
-        "03_org-development/leadership",
-        "03_org-development/measurement",
-        "03_org-development/lean-transformation"
+        {
+          "group": "Getting Started",
+          "pages": [
+            "implementation/getting-started/first-90-days",
+            "implementation/getting-started/building-momentum",
+            "implementation/getting-started/quick-wins"
+          ]
+        },
+        {
+          "group": "Scaling",
+          "pages": [
+            "implementation/scaling/expanding-adoption",
+            "implementation/scaling/measuring-progress",
+            "implementation/scaling/managing-complexity"
+          ]
+        }
       ]
     },
     {
-      "group": "Sponsorship & Stakeholder Engagement",
+      "group": "Resources",
       "pages": [
-        "04_sponsorship/index",
-        "04_sponsorship/building-sponsors",
-        "04_sponsorship/maintaining-sponsorship",
-        "04_sponsorship/literacy-for-tech",
-        "04_sponsorship/transformation-examples",
-        "04_sponsorship/resistance-to-change"
-      ]
-    },
-    {
-      "group": "Personal Development & Leadership",
-      "pages": [
-        "05_personal-development/index",
-        "05_personal-development/leadership-skills",
-        "05_personal-development/confidence-building",
-        "05_personal-development/continuous-learning",
-        "05_personal-development/transformation-mindset",
-        "05_personal-development/resilience"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Templates",
+          "pages": [
+            "resources/templates/value-assessment-template",
+            "resources/templates/risk-register-template",
+            "resources/templates/steering-committee-template"
+          ]
+        },
+        {
+          "group": "Case Studies",
+          "pages": [
+            "resources/case-studies/success-stories",
+            "resources/case-studies/lessons-learned"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/transformationdocs",
-    "github": "https://github.com/transformationdocs",
-    "linkedin": "https://linkedin.com/company/transformationdocs"
+    "linkedin": "https://linkedin.com/company/lean-transformation",
+    "twitter": "https://twitter.com/leantransform",
+    "github": "https://github.com/lean-transformation"
+  },
+  "typography": {
+    "font-family": {
+      "sans": ["Manrope", "system-ui", "sans-serif"],
+      "mono": ["Anonymous Pro", "monospace"]
+    }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "search": {
+    "prompt": "Search transformation docs..."
   }
 }
