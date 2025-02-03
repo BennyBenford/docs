@@ -100,6 +100,56 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Frameworks & Methods",
+      "pages": [
+        {
+          "group": "Value Assessment",
+          "pages": [
+            "frameworks/value/assessment-process",
+            "frameworks/value/measurement-methods",
+            "frameworks/value/tracking-systems"
+          ]
+        },
+        {
+          "group": "Change Management",
+          "pages": [
+            "frameworks/change/stakeholder-mapping",
+            "frameworks/change/resistance-management",
+            "frameworks/change/communication-strategy"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        {
+          "group": "Templates",
+          "pages": [
+            "resources/templates/value-assessment",
+            "resources/templates/risk-register",
+            "resources/templates/steering-committee"
+          ]
+        },
+        {
+          "group": "Case Studies",
+          "pages": [
+            "resources/case-studies/success-stories",
+            "resources/case-studies/lessons-learned",
+            "resources/case-studies/transformation-examples"
+          ]
+        },
+        {
+          "group": "Tools",
+          "pages": [
+            "resources/tools/assessment-tools",
+            "resources/tools/tracking-tools",
+            "resources/tools/governance-tools"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {
