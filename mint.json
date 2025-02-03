@@ -10,6 +10,10 @@
     "primary": "#361f5b",
     "light": "#72c7af",
     "dark": "#361f5b",
+    "background": {
+      "dark": "#0f0d12",
+      "light": "#f1f1f2"
+    },
     "anchors": {
       "from": "#72c7af",
       "to": "#738ebc"
@@ -17,34 +21,34 @@
   },
   "topbarLinks": [
     {
-      "name": "Community",
-      "url": "mailto:community@lean-transformation.com"
+      "name": "Academy",
+      "url": "https://datent.com/academy"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://lean-transformation.com/start"
+    "name": "Start Transforming",
+    "url": "https://datent.com/start"
   },
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://lean-transformation.com/docs"
+      "url": "https://datent.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "people-group",
-      "url": "https://lean-transformation.com/community"
+      "name": "Academy",
+      "icon": "graduation-cap",
+      "url": "https://datent.com/academy"
     },
     {
       "name": "Case Studies",
       "icon": "clipboard-document-list",
-      "url": "https://lean-transformation.com/case-studies"
+      "url": "https://datent.com/case-studies"
     }
   ],
   "navigation": [
     {
-      "group": "Introduction",
+      "group": "Getting Started",
       "pages": [
         "introduction/overview",
         "introduction/key-concepts",
@@ -52,58 +56,108 @@
       ]
     },
     {
-      "group": "Core Processes",
+      "group": "Core Systems",
       "pages": [
-        "production-systems",
-        "culture-systems",
-        "program-systems"
+        {
+          "group": "Production Systems",
+          "pages": [
+            "core-processes/production-systems/value-assessment",
+            "core-processes/production-systems/mvp-development",
+            "core-processes/production-systems/scaling-strategy"
+          ]
+        },
+        {
+          "group": "Culture Systems",
+          "pages": [
+            "core-processes/culture-systems/transformation-survey",
+            "core-processes/culture-systems/champions-network",
+            "core-processes/culture-systems/skills-development"
+          ]
+        },
+        {
+          "group": "Program Systems",
+          "pages": [
+            "core-processes/program-systems/steerco-management",
+            "core-processes/program-systems/sponsor-engagement",
+            "core-processes/program-systems/value-tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Value Framework",
+      "pages": [
+        "frameworks/value/assessment-process",
+        "frameworks/value/measurement-framework",
+        "frameworks/value/backlog-management"
+      ]
+    },
+    {
+      "group": "Change Management",
+      "pages": [
+        "frameworks/change/stakeholder-mapping",
+        "frameworks/change/communication-strategy",
+        "frameworks/change/resistance-management"
+      ]
+    },
+    {
+      "group": "Governance",
+      "pages": [
+        "frameworks/governance/risk-management",
+        "frameworks/governance/data-ownership",
+        "frameworks/governance/compliance-framework"
       ]
     },
     {
       "group": "Implementation Guide",
       "pages": [
-        "first-90-days",
-        "building-momentum",
-        "scaling"
-      ]
-    },
-    {
-      "group": "Frameworks & Methods",
-      "pages": [
-        "frameworks/value/assessment-process",
-        "frameworks/value/measurement-methods",
-        "frameworks/value/tracking-systems",
-        "frameworks/transformation/vision-setting",
-        "frameworks/transformation/roadmap-development",
-        "frameworks/transformation/change-management",
-        "frameworks/governance/risk-management",
-        "frameworks/governance/data-ownership",
-        "frameworks/governance/compliance"
+        {
+          "group": "Getting Started",
+          "pages": [
+            "implementation/getting-started/first-90-days",
+            "implementation/getting-started/building-momentum",
+            "implementation/getting-started/quick-wins"
+          ]
+        },
+        {
+          "group": "Scaling",
+          "pages": [
+            "implementation/scaling/expanding-adoption",
+            "implementation/scaling/measuring-progress",
+            "implementation/scaling/managing-complexity"
+          ]
+        }
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/templates/value-assessment-template",
-        "resources/templates/risk-register-template", 
-        "resources/templates/steering-committee-template",
-        "resources/case-studies/success-stories",
-        "resources/case-studies/lessons-learned",
-        "resources/tools/assessment-tools",
-        "resources/tools/tracking-tools",
-        "resources/tools/reporting-tools"
+        {
+          "group": "Templates",
+          "pages": [
+            "resources/templates/value-assessment",
+            "resources/templates/risk-register",
+            "resources/templates/steerco-terms"
+          ]
+        },
+        {
+          "group": "Case Studies",
+          "pages": [
+            "resources/case-studies/success-stories",
+            "resources/case-studies/lessons-learned"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "linkedin": "https://linkedin.com/company/lean-transformation",
-    "twitter": "https://twitter.com/leantransform",
-    "github": "https://github.com/lean-transformation"
+    "linkedin": "https://linkedin.com/company/datent",
+    "twitter": "https://twitter.com/datent"
   },
   "typography": {
     "font-family": {
-      "sans": ["Manrope", "system-ui", "sans-serif"],
-      "mono": ["Anonymous Pro", "monospace"]
+      "sans": ["Inter", "system-ui", "sans-serif"],
+      "mono": ["JetBrains Mono", "monospace"]
     }
   },
   "feedback": {
@@ -112,5 +166,11 @@
   },
   "search": {
     "prompt": "Search transformation docs..."
+  },
+  "backgroundImage": "/images/background-pattern.png",
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
   }
 }
