@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Lean Transformation Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark3.svg",
+    "light": "/logo/light3.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -15,40 +15,13 @@
       "to": "#738ebc"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Community",
-      "url": "mailto:community@lean-transformation.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://lean-transformation.com/start"
-  },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://lean-transformation.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "people-group",
-      "url": "https://lean-transformation.com/community"
-    },
-    {
-      "name": "Case Studies",
-      "icon": "clipboard-document-list",
-      "url": "https://lean-transformation.com/case-studies"
-    }
-  ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Introduction",
       "pages": [
-        "introduction",
-        "key-concepts",
-        "getting-started"
+        "introduction/overview",
+        "introduction/key-concepts",
+        "introduction/getting-started"
       ]
     },
     {
@@ -57,38 +30,67 @@
         {
           "group": "Production Systems",
           "pages": [
-            "production-systems/value-assessment",
-            "production-systems/mvp-development",
-            "production-systems/scaling-framework"
+            "core-processes/production-systems/value-assessment",
+            "core-processes/production-systems/mvp-development",
+            "core-processes/production-systems/scaling-framework"
           ]
         },
         {
           "group": "Culture Systems",
           "pages": [
-            "culture-systems/culture-assessment",
-            "culture-systems/champions-network",
-            "culture-systems/measuring-adoption"
+            "core-processes/culture-systems/culture-assessment",
+            "core-processes/culture-systems/champions-network",
+            "core-processes/culture-systems/measuring-adoption"
           ]
         },
         {
           "group": "Program Systems",
           "pages": [
-            "program-systems/stakeholder-engagement",
-            "program-systems/value-tracking",
-            "program-systems/governance"
+            "core-processes/program-systems/stakeholder-engagement",
+            "core-processes/program-systems/value-tracking",
+            "core-processes/program-systems/governance"
           ]
         }
       ]
     },
     {
-      "group": "Implementation Guide",
+      "group": "Frameworks",
+      "pages": [
+        {
+          "group": "Value",
+          "pages": [
+            "frameworks/value/value-assessment",
+            "frameworks/value/value-measurement",
+            "frameworks/value/value-tracking"
+          ]
+        },
+        {
+          "group": "Transformation",
+          "pages": [
+            "frameworks/transformation/vision-setting",
+            "frameworks/transformation/roadmap-development",
+            "frameworks/transformation/change-management"
+          ]
+        },
+        {
+          "group": "Governance",
+          "pages": [
+            "frameworks/governance/risk-management",
+            "frameworks/governance/data-ownership",
+            "frameworks/governance/compliance"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Implementation",
       "pages": [
         {
           "group": "Getting Started",
           "pages": [
-            "implementation/first-90-days",
-            "implementation/building-momentum",
-            "implementation/quick-wins"
+            "implementation/getting-started/first-90-days",
+            "implementation/getting-started/building-momentum",
+            "implementation/getting-started/quick-wins"
           ]
         },
         {
@@ -98,98 +100,13 @@
             "implementation/scaling/measuring-progress",
             "implementation/scaling/managing-complexity"
           ]
-        }
-      ]
-    },
-    {
-      "group": "Leadership & Personal Development",
-      "pages": [
-        {
-          "group": "Leadership Skills",
-          "pages": [
-            "leadership/building-influence",
-            "leadership/stakeholder-management",
-            "leadership/communication-skills",
-            "leadership/decision-making"
-          ]
         },
         {
-          "group": "Personal Growth",
+          "group": "Sustainability",
           "pages": [
-            "leadership/personal-growth/resilience",
-            "leadership/personal-growth/learning-mindset",
-            "leadership/personal-growth/networking"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Advanced Topics",
-      "pages": [
-        {
-          "group": "AI & Future Trends",
-          "pages": [
-            "advanced/ai-transformation",
-            "advanced/future-of-work",
-            "advanced/emerging-technologies"
-          ]
-        },
-        {
-          "group": "Enterprise Scale",
-          "pages": [
-            "advanced/enterprise/global-transformation",
-            "advanced/enterprise/matrix-organizations",
-            "advanced/enterprise/multi-speed-transformation"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Governance & Compliance",
-      "pages": [
-        {
-          "group": "Risk Management",
-          "pages": [
-            "governance/risk/assessment-framework",
-            "governance/risk/mitigation-strategies",
-            "governance/risk/monitoring-reporting"
-          ]
-        },
-        {
-          "group": "Compliance",
-          "pages": [
-            "governance/compliance/regulatory-requirements",
-            "governance/compliance/audit-trails",
-            "governance/compliance/data-governance"
-          ]
-        },
-        {
-          "group": "Ethics & Standards",
-          "pages": [
-            "governance/ethics/transformation-ethics",
-            "governance/ethics/decision-frameworks",
-            "governance/ethics/sustainability"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Frameworks & Methods",
-      "pages": [
-        {
-          "group": "Value Assessment",
-          "pages": [
-            "frameworks/value/assessment-process",
-            "frameworks/value/measurement-methods",
-            "frameworks/value/tracking-systems"
-          ]
-        },
-        {
-          "group": "Change Management",
-          "pages": [
-            "frameworks/change/stakeholder-mapping",
-            "frameworks/change/resistance-management",
-            "frameworks/change/communication-strategy"
+            "implementation/sustainability/maintaining-momentum",
+            "implementation/sustainability/evolving-practices",
+            "implementation/sustainability/continuous-improvement"
           ]
         }
       ]
@@ -200,17 +117,16 @@
         {
           "group": "Templates",
           "pages": [
-            "resources/templates/value-assessment",
-            "resources/templates/risk-register",
-            "resources/templates/steering-committee"
+            "resources/templates/value-assessment-template",
+            "resources/templates/risk-register-template",
+            "resources/templates/steering-committee-template"
           ]
         },
         {
           "group": "Case Studies",
           "pages": [
             "resources/case-studies/success-stories",
-            "resources/case-studies/lessons-learned",
-            "resources/case-studies/transformation-examples"
+            "resources/case-studies/lessons-learned"
           ]
         },
         {
@@ -218,7 +134,7 @@
           "pages": [
             "resources/tools/assessment-tools",
             "resources/tools/tracking-tools",
-            "resources/tools/governance-tools"
+            "resources/tools/reporting-tools"
           ]
         }
       ]
@@ -229,17 +145,7 @@
     "twitter": "https://twitter.com/leantransform",
     "github": "https://github.com/lean-transformation"
   },
-  "typography": {
-    "font-family": {
-      "sans": ["Manrope", "system-ui", "sans-serif"],
-      "mono": ["Anonymous Pro", "monospace"]
-    }
-  },
   "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true
-  },
-  "search": {
-    "prompt": "Search transformation docs..."
+    "thumbsRating": true
   }
 }
