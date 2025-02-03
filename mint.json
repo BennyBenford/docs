@@ -44,61 +44,54 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Introduction",
       "pages": [
-        "overview",
-        "key-concepts",
-        "getting-started"
+        "introduction/overview",
+        "introduction/key-concepts",
+        "introduction/getting-started"
       ]
     },
     {
-      "group": "Production Systems",
+      "group": "Core Processes",
       "pages": [
-        "value-assessment",
-        "mvp-development",
-        "scaling-framework"
+        "production-systems",
+        "culture-systems",
+        "program-systems"
       ]
     },
     {
-      "group": "Culture Systems",
-      "pages": [
-        "culture-assessment",
-        "champions-network",
-        "measuring-adoption"
-      ]
-    },
-    {
-      "group": "Program Systems",
-      "pages": [
-        "stakeholder-engagement",
-        "value-tracking",
-        "governance"
-      ]
-    },
-    {
-      "group": "Frameworks",
-      "pages": [
-        "value-framework",
-        "transformation-framework",
-        "governance-framework"
-      ]
-    },
-    {
-      "group": "Implementation",
+      "group": "Implementation Guide",
       "pages": [
         "first-90-days",
         "building-momentum",
-        "quick-wins",
-        "expanding-adoption",
-        "measuring-progress"
+        "scaling"
+      ]
+    },
+    {
+      "group": "Frameworks & Methods",
+      "pages": [
+        "frameworks/value/assessment-process",
+        "frameworks/value/measurement-methods",
+        "frameworks/value/tracking-systems",
+        "frameworks/transformation/vision-setting",
+        "frameworks/transformation/roadmap-development",
+        "frameworks/transformation/change-management",
+        "frameworks/governance/risk-management",
+        "frameworks/governance/data-ownership",
+        "frameworks/governance/compliance"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "templates",
-        "case-studies",
-        "tools"
+        "resources/templates/value-assessment-template",
+        "resources/templates/risk-register-template", 
+        "resources/templates/steering-committee-template",
+        "resources/case-studies/success-stories",
+        "resources/case-studies/lessons-learned",
+        "resources/tools/assessment-tools",
+        "resources/tools/tracking-tools",
+        "resources/tools/reporting-tools"
       ]
     }
   ],
@@ -107,8 +100,15 @@
     "twitter": "https://twitter.com/leantransform",
     "github": "https://github.com/lean-transformation"
   },
+  "typography": {
+    "font-family": {
+      "sans": ["Manrope", "system-ui", "sans-serif"],
+      "mono": ["Anonymous Pro", "monospace"]
+    }
+  },
   "feedback": {
-    "thumbsRating": true
+    "thumbsRating": true,
+    "suggestEdit": true
   },
   "search": {
     "prompt": "Search transformation docs..."
