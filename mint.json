@@ -68,7 +68,22 @@
       ]
     }
   ],
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/lean-transformation",
+    "twitter": "https://twitter.com/leantransform",
+    "github": "https://github.com/lean-transformation"
+  },
+  "typography": {
+    "font-family": {
+      "sans": ["Manrope", "system-ui", "sans-serif"],
+      "mono": ["Anonymous Pro", "monospace"]
+    }
+  },
   "feedback": {
-    "thumbsRating": true
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "search": {
+    "prompt": "Search transformation docs..."
   }
 }
