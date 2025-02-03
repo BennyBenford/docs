@@ -1,5 +1,4 @@
-I'll help create a mint.json file optimized for your lean transformation documentation, incorporating your brand colors and adapting the structure to match your content organization. Here's the proposed configuration:
-jsonCopy{
+{
   "$schema": "https://mintlify.com/schema.json",
   "name": "Lean Transformation Docs",
   "logo": {
